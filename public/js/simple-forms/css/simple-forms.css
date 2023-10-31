@@ -1,0 +1,1617 @@
+/*
+    Description: Simple Forms Styles
+    Author:      Nicu Lucas
+    Website:     https://projects.lucas-games.com/simple-forms/
+*/
+.grid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.grid.middle {
+  align-items: center; }
+
+[class^=grid-col] {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.simple-col-2 {
+  width: 16.66%; }
+
+.simple-col-3 {
+  width: 25%; }
+
+.simple-col-4 {
+  width: 33.33%; }
+
+.simple-col-6 {
+  width: 50%; }
+
+.simple-col-12 {
+  width: 25%; }
+
+.grid-col-1 {
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%; }
+
+.grid-col-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%; }
+
+.grid-col-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%; }
+
+.grid-col-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%; }
+
+.grid-col-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%; }
+
+.grid-col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%; }
+
+.grid-col-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%; }
+
+.grid-col-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%; }
+
+.grid-col-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%; }
+
+.grid-col-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%; }
+
+.grid-col-11 {
+  -ms-flex: 0 0 91.666667%;
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%; }
+
+.grid-col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+@media (min-width: 992px) {
+  .grid-col-lg-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%; }
+
+  .grid-col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%; }
+
+  .grid-col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .grid-col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; }
+
+  .grid-col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%; }
+
+  .grid-col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+  .grid-col-lg-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%; }
+
+  .grid-col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%; }
+
+  .grid-col-lg-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .grid-col-lg-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%; }
+
+  .grid-col-lg-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%; }
+
+  .grid-col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; } }
+@media (min-width: 768px) {
+  .grid-col-md-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%; }
+
+  .grid-col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%; }
+
+  .grid-col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .grid-col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; }
+
+  .grid-col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%; }
+
+  .grid-col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+  .grid-col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%; }
+
+  .grid-col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%; }
+
+  .grid-col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .grid-col-md-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%; }
+
+  .grid-col-md-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%; }
+
+  .grid-col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; } }
+@media (min-width: 576px) {
+  .grid-col-sm-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%; }
+
+  .grid-col-sm-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%; }
+
+  .grid-col-sm-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .grid-col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; }
+
+  .grid-col-sm-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%; }
+
+  .grid-col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+  .grid-col-sm-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%; }
+
+  .grid-col-sm-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%; }
+
+  .grid-col-sm-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .grid-col-sm-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%; }
+
+  .grid-col-sm-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%; }
+
+  .grid-col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; } }
+.no-border {
+  border: 0 !important; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.simple-hide, .sf-hide {
+  display: none !important; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.simple-tooltip {
+  display: block;
+  position: absolute;
+  z-index: 9;
+  bottom: 100%;
+  left: 50%;
+  width: 220px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #222222;
+  font-style: normal !important;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 6px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0 40px;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out; }
+  .simple-tooltip:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    bottom: -4px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    background-color: inherit;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .simple-tooltip.simple-alert, .simple-tooltip.simple-alert:before {
+    background-color: #e22e2e !important;
+    color: #ffffff !important; }
+
+:focus + .simple-tooltip,
+:hover + .simple-tooltip {
+  visibility: visible !important;
+  opacity: 1 !important;
+  bottom: calc(100% + 6px); }
+
+.simple-tip {
+  display: none;
+  position: absolute;
+  z-index: 9;
+  bottom: 100%;
+  left: 50%;
+  width: auto;
+  min-width: 220px;
+  max-width: 220px;
+  font-size: 11px;
+  color: #222222;
+  background: #ffffff;
+  letter-spacing: 1px;
+  padding: 6px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 30px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  animation: fade .2s ease-in-out; }
+  .simple-tip > span {
+    display: block;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background-color: #E1E1E9; }
+  .simple-tip > span:not(:last-child) {
+    margin-bottom: 5px; }
+  .simple-tip .sf-preview-image {
+    text-align: center;
+    background-color: #E1E1E9; }
+  .simple-tip .sf-preview-image img {
+    display: inline-block;
+    margin: 0;
+    border: 0; }
+
+:hover > .simple-tip {
+  display: block; }
+
+.sf-wrapper {
+  position: relative;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0; }
+  .sf-wrapper > p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+
+.simple-container {
+  position: relative;
+  padding: 0 30px;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto; }
+
+form.simple-form {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 30px 40px;
+  border-radius: 20px; }
+  form.simple-form.centered {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px; }
+  form.simple-form.large {
+    max-width: 600px; }
+  form.simple-form * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  form.simple-form *:focus {
+    outline: none !important; }
+  form.simple-form svg {
+    display: inline-block;
+    vertical-align: middle; }
+  form.simple-form svg,
+  form.simple-form svg * {
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out; }
+  form.simple-form input,
+  form.simple-form textarea,
+  form.simple-form select {
+    outline: none;
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 0 15px;
+    margin: 0;
+    color: #222222;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.4); }
+  form.simple-form textarea {
+    padding: 15px 20px;
+    min-height: 100px;
+    height: auto;
+    overflow: auto;
+    resize: none; }
+  form.simple-form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5MC42NTYgNDkwLjY1NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDkwLjY1NiA0OTAuNjU2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+PHBhdGggZD0iTTQ4Ny41MzYsMTIwLjQ0NWMtNC4xNi00LjE2LTEwLjkyMy00LjE2LTE1LjA4MywwTDI0NS4zMzksMzQ3LjU4MUwxOC4yMDMsMTIwLjQ2N2MtNC4xNi00LjE2LTEwLjkyMy00LjE2LTE1LjA4MywwYy00LjE2LDQuMTYtNC4xNiwxMC45MjMsMCwxNS4wODNsMjM0LjY2NywyMzQuNjY3YzIuMDkxLDIuMDY5LDQuODIxLDMuMTE1LDcuNTUyLDMuMTE1czUuNDYxLTEuMDQ1LDcuNTMxLTMuMTM2bDIzNC42NjctMjM0LjY2N0M0OTEuNjk2LDEzMS4zNjgsNDkxLjY5NiwxMjQuNjA1LDQ4Ny41MzYsMTIwLjQ0NXoiLz48L2c+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjwvc3ZnPg==);
+    background-position: calc(100% - 20px) 50%;
+    background-repeat: no-repeat;
+    background-size: 16px 16px; }
+  form.simple-form select::-ms-expand {
+    display: none; }
+  form.simple-form :-ms-input-placeholder {
+    color: #A2A2A2 !important;
+    font-weight: normal !important; }
+  form.simple-form ::-webkit-input-placeholder {
+    color: #A2A2A2;
+    font-weight: normal; }
+  form.simple-form ::-moz-placeholder {
+    color: #A2A2A2;
+    font-weight: normal;
+    opacity: 1; }
+  form.simple-form input[type=submit],
+  form.simple-form button[type=submit] {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    margin: 0 auto;
+    text-decoration: none;
+    border: 0;
+    border-radius: 30px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background: #7985ff;
+    width: auto;
+    height: auto;
+    min-width: 200px;
+    max-width: 260px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 12px;
+    line-height: 48px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    opacity: 1;
+    overflow: hidden; }
+  form.simple-form input[type=submit]:hover,
+  form.simple-form button[type=submit]:hover {
+    background: #7985ff;
+    color: #ffffff;
+    box-shadow: none;
+    text-decoration: none; }
+  form.simple-form input[type=submit]:active,
+  form.simple-form button[type=submit]:active {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95); }
+  form.simple-form input[type=submit]:focus,
+  form.simple-form button[type=submit]:focus {
+    box-shadow: rgba(0, 0, 0, 0.2) 0 10px 30px; }
+  form.simple-form input[type=checkbox],
+  form.simple-form input[type=radio] {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    margin-right: 5px;
+    border: 1px solid #A2A2A2;
+    display: inline-block;
+    vertical-align: middle; }
+  form.simple-form label {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0 0 12px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none; }
+    form.simple-form label > strong {
+      font-weight: 600;
+      font-size: 14px;
+      color: #333;
+      display: inline-block;
+      padding-left: 5px; }
+    form.simple-form label > .simple-description {
+      font-size: 12px;
+      font-style: italic;
+      color: #999;
+      padding-left: 5px; }
+  form.simple-form .simple-required {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ff4081; }
+  form.simple-form .custom-checkbox-label {
+    position: relative;
+    padding: 0 0 0 30px;
+    margin: 0 0 12px 0;
+    cursor: pointer;
+    text-align: left;
+    font-size: 13px; }
+    form.simple-form .custom-checkbox-label .custom-checkbox-button {
+      position: absolute;
+      top: 1px;
+      left: 0;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 5px 0 0;
+      z-index: 2;
+      background: rgba(255, 255, 255, 0.3);
+      border: 2px solid #B8B8B8;
+      border-radius: 3px;
+      width: 16px;
+      height: 16px;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+      form.simple-form .custom-checkbox-label .custom-checkbox-button:before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjQ0IiBkPSJNNDE2IDEyOEwxOTIgMzg0bC05Ni05NiIvPjwvc3ZnPg=="); }
+    form.simple-form .custom-checkbox-label input {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 8px;
+      width: 16px;
+      height: 16px;
+      opacity: 0; }
+    form.simple-form .custom-checkbox-label input:checked ~ .custom-checkbox-button {
+      background-color: #7985ff;
+      border-color: #7985ff; }
+    form.simple-form .custom-checkbox-label input:checked ~ .custom-checkbox-button:before {
+      opacity: 1; }
+    form.simple-form .custom-checkbox-label input.error ~ .custom-checkbox-button {
+      border-color: #e22e2e; }
+  form.simple-form .form-heading {
+    padding: 15px 0 30px 0;
+    font-size: 16px;
+    color: #302F50;
+    text-align: center; }
+  form.simple-form .form-heading h1,
+  form.simple-form .form-heading h2,
+  form.simple-form .form-heading h3,
+  form.simple-form .form-heading h4,
+  form.simple-form .form-heading h5,
+  form.simple-form .form-heading h6 {
+    font-size: 48px;
+    text-transform: none;
+    color: inherit;
+    line-height: 1.2;
+    margin: 0; }
+  form.simple-form .consent {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #A2A2A2; }
+    form.simple-form .consent label {
+      margin: 0; }
+  form.simple-form .form-submit {
+    margin-top: 30px; }
+  form.simple-form .simple-error-label:not(.simple-tooltip) {
+    font-size: 12px;
+    color: #A2A2A2;
+    font-style: italic; }
+  form.simple-form .simple-error-label.simple-alert {
+    color: #ff4081; }
+  form.simple-form .disabled {
+    pointer-events: none !important;
+    opacity: 0.7 !important;
+    user-select: none; }
+  form.simple-form .simple-captcha-wrapper {
+    margin-bottom: 20px; }
+  form.simple-form.drop-area {
+    display: block;
+    position: relative; }
+    form.simple-form.drop-area:hover {
+      border-color: #82B440; }
+    form.simple-form.drop-area:before {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 11;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 4px dashed #B8B8B8;
+      -webkit-transition: all .15s linear;
+      -moz-transition: all .15s linear;
+      transition: all .15s linear;
+      cursor: move;
+      border-radius: 20px;
+      background: rgba(130, 180, 64, 0.1); }
+    form.simple-form.drop-area.highlight:before {
+      border-color: #82B440;
+      background: rgba(130, 180, 64, 0.1); }
+    form.simple-form.drop-area.highlight:before {
+      border-color: #82B440; }
+    form.simple-form.drop-area strong {
+      color: #302F50; }
+  form.simple-form .simple-files {
+    margin-bottom: 10px; }
+    form.simple-form .simple-files label.simple-file-label {
+      display: block;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      cursor: pointer; }
+    form.simple-form .simple-files label.simple-file-label > input[type=file] {
+      display: none; }
+    form.simple-form .simple-files .simple-file-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0;
+      font-size: 12px;
+      color: #302F50;
+      position: relative;
+      z-index: 1;
+      font-weight: 500;
+      margin-top: 3px;
+      height: 24px;
+      cursor: pointer;
+      user-select: none; }
+      form.simple-form .simple-files .simple-file-item .simple-file-name {
+        display: block;
+        padding-left: 5px;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative; }
+      form.simple-form .simple-files .simple-file-item .simple-file-remove {
+        display: flex;
+        height: 24px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        opacity: .6; }
+      form.simple-form .simple-files .simple-file-item .simple-file-remove:hover {
+        opacity: 1; }
+      form.simple-form .simple-files .simple-file-item .simple-file-progress {
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+      form.simple-form .simple-files .simple-file-item.simple-file-error {
+        color: #ff4081 !important; }
+      form.simple-form .simple-files .simple-file-item.simple-file-error .simple-file-progress > span {
+        background-color: #ff4081 !important; }
+    form.simple-form .simple-files .simple-file-tooltip {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      transform: translateX(-50%);
+      max-width: 200px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+      display: none;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 0 30px; }
+      form.simple-form .simple-files .simple-file-tooltip img {
+        display: block;
+        width: auto;
+        max-width: 200px; }
+      form.simple-form .simple-files .simple-file-tooltip > span {
+        display: block;
+        position: relative;
+        padding: 3px 8px;
+        line-height: 1.4;
+        background: #f2f2f2; }
+      form.simple-form .simple-files .simple-file-tooltip > span:not(:last-child) {
+        margin-bottom: 3px; }
+    form.simple-form .simple-files .simple-file-item:hover .simple-file-tooltip {
+      display: block; }
+    form.simple-form .simple-files .simple-file-progress {
+      display: block;
+      width: 100%;
+      height: 2px;
+      border-radius: 5px;
+      background: #eee;
+      position: relative;
+      z-index: 3; }
+      form.simple-form .simple-files .simple-file-progress > span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        min-width: 50%;
+        background: #82B440;
+        transition: all .15s ease-out; }
+    form.simple-form .simple-files .sf-list {
+      position: relative;
+      margin: 15px 0;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      -webkit-transition: all .15s ease-in;
+      -moz-transition: all .15s ease-in;
+      transition: all .15s ease-in;
+      border: 1px solid #eee;
+      border-radius: 4px; }
+    form.simple-form .simple-files .sf-header {
+      display: flex;
+      height: 50px;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 8px 8px 0 0;
+      justify-content: space-between;
+      border-bottom: 2px solid #eee; }
+    form.simple-form .simple-files .sf-items {
+      position: relative; }
+    form.simple-form .simple-files .sf-file-item {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      position: relative;
+      padding: 3px 0;
+      opacity: 0.85;
+      background-color: #ffffff; }
+      form.simple-form .simple-files .sf-file-item .sf-col-left {
+        position: relative;
+        z-index: 3;
+        width: 60%; }
+      form.simple-form .simple-files .sf-file-item .sf-col-right {
+        position: relative;
+        z-index: 3;
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px; }
+    form.simple-form .simple-files .sf-file-item:hover {
+      opacity: 1; }
+    form.simple-form .simple-files .sf-item-progress {
+      position: absolute;
+      z-index: 4;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: #f2f2f2;
+      overflow: hidden;
+      border-radius: 12px; }
+    form.simple-form .simple-files .sf-progress {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 12px;
+      background-color: #999; }
+    form.simple-form .simple-files .sf-file-info {
+      display: block;
+      padding-left: 10px;
+      font-size: 13px;
+      color: #333;
+      line-height: 1; }
+      form.simple-form .simple-files .sf-file-info .sf-file-size {
+        color: #999;
+        display: inline-block;
+        font-size: 11px; }
+    form.simple-form .simple-files .sf-file-item.sf-upload-success .sf-file-info,
+    form.simple-form .simple-files .sf-file-item.sf-upload-success .sf-file-size {
+      color: #82B440; }
+    form.simple-form .simple-files .sf-file-item.sf-upload-error .sf-file-info,
+    form.simple-form .simple-files .sf-file-item.sf-upload-error .sf-file-size {
+      color: #ff4081; }
+    form.simple-form .simple-files .sf-file-item.sf-upload-success .sf-progress {
+      background-color: #82B440; }
+    form.simple-form .simple-files .sf-file-item.sf-upload-error .sf-progress {
+      background-color: #ff4081; }
+    form.simple-form .simple-files .sf-closer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      opacity: 0.6;
+      text-align: center;
+      color: #B8B8B8;
+      cursor: pointer;
+      user-select: none;
+      -webkit-transition: all .15s ease-out;
+      -moz-transition: all .15s ease-out;
+      transition: all .15s ease-out; }
+      form.simple-form .simple-files .sf-closer * {
+        pointer-events: none !important; }
+      form.simple-form .simple-files .sf-closer:hover {
+        opacity: 1; }
+      form.simple-form .simple-files .sf-closer:hover svg path {
+        fill: #FF4081; }
+    form.simple-form .simple-files .sf-header .sf-closer {
+      margin-right: 10px; }
+    form.simple-form .simple-files .sf-closer svg path {
+      fill: #666666; }
+    form.simple-form .simple-files .sf-counter {
+      font-size: 13px;
+      color: #333;
+      font-weight: normal; }
+      form.simple-form .simple-files .sf-counter > span {
+        display: inline-block;
+        line-height: 24px;
+        font-size: 12px; }
+      form.simple-form .simple-files .sf-counter .sf-counter-size {
+        color: #999;
+        font-size: 12px; }
+      form.simple-form .simple-files .sf-counter svg {
+        position: relative;
+        top: -1px; }
+    form.simple-form .simple-files .sf-header .sf-counter {
+      margin-left: 15px; }
+    form.simple-form .simple-files .simple-files-trigger {
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      color: #999999;
+      padding: 15px;
+      border: 2px dashed #eaeaea;
+      transition: all .2s ease-out; }
+      form.simple-form .simple-files .simple-files-trigger:hover {
+        background-color: rgba(130, 180, 64, 0.1);
+        border-color: #82B440; }
+      form.simple-form .simple-files .simple-files-trigger strong {
+        color: #222222; }
+  form.simple-form .server-response {
+    margin-top: 20px; }
+    form.simple-form .server-response:first-child {
+      margin-top: 0; }
+    form.simple-form .server-response:not(:last-child) .sf-message {
+      margin-bottom: 15px; }
+
+.sf-message {
+  display: block;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  border: 3px solid #f2f2f2;
+  word-break: break-all;
+  border-radius: 3px;
+  animation: fade 0.35s ease-in; }
+  .sf-message.sf-success-message {
+    border-color: #5CAA3B; }
+  .sf-message.sf-error-message {
+    border-color: #FF4081 !important;
+    color: #FF4081 !important; }
+  .sf-message > span > span {
+    display: block;
+    padding: 2px 0; }
+  .sf-message > span > span:not(:last-child) {
+    margin-bottom: 3px; }
+
+/*************************************************************
+* WHITE FORM THEME
+*
+* Adjust here styles for the White form
+**************************************************************/
+form.simple-form.white {
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 30px; }
+  form.simple-form.white.classic-style input, form.simple-form.white.classic-style textarea, form.simple-form.white.classic-style select {
+    border: 2px solid #E1E1E9; }
+  form.simple-form.white.classic-rounded-style input, form.simple-form.white.classic-rounded-style textarea, form.simple-form.white.classic-rounded-style select {
+    border: 2px solid #E1E1E9;
+    border-radius: 6px; }
+  form.simple-form.white.modern-style input, form.simple-form.white.modern-style textarea, form.simple-form.white.modern-style select {
+    border: 0;
+    height: 48px;
+    background-color: #EDF2FF; }
+  form.simple-form.white.modern-rounded-style input, form.simple-form.white.modern-rounded-style select {
+    height: 48px; }
+  form.simple-form.white.modern-rounded-style input, form.simple-form.white.modern-rounded-style textarea, form.simple-form.white.modern-rounded-style select {
+    border: 0;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #EDF2FF; }
+  form.simple-form.white.modern-rounded-style input:focus, form.simple-form.white.modern-rounded-style textarea:focus, form.simple-form.white.modern-rounded-style select:focus {
+    background-color: #EDF2FF; }
+  form.simple-form.white.modern-style input:focus, form.simple-form.white.modern-style textarea:focus, form.simple-form.white.modern-style select:focus, form.simple-form.white.modern-rounded-style input:focus, form.simple-form.white.modern-rounded-style textarea:focus, form.simple-form.white.modern-rounded-style select:focus {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 3px 10px #E1E1E9;
+    -moz-box-shadow: 0 3px 10px #E1E1E9;
+    box-shadow: 0 3px 10px #E1E1E9; }
+  form.simple-form.white input.error,
+  form.simple-form.white select.error,
+  form.simple-form.white textarea.error {
+    background-color: rgba(255, 64, 129, 0.1); }
+
+/*************************************************************
+* DARK FORM THEME
+*
+* Adjust here styles for the Dark form
+**************************************************************/
+form.simple-form.dark {
+  color: #ffffff;
+  background-color: #18191A; }
+  form.simple-form.dark .consent a {
+    color: #ffffff; }
+  form.simple-form.dark input,
+  form.simple-form.dark textarea {
+    color: #E1E1E9; }
+  form.simple-form.dark select {
+    color: #B8B8B8;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5MC42NTYgNDkwLjY1NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDkwLjY1NiA0OTAuNjU2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQ4Ny41MzYsMTIwLjQ0NWMtNC4xNi00LjE2LTEwLjkyMy00LjE2LTE1LjA4MywwTDI0NS4zMzksMzQ3LjU4MUwxOC4yMDMsMTIwLjQ2N2MtNC4xNi00LjE2LTEwLjkyMy00LjE2LTE1LjA4MywwYy00LjE2LDQuMTYtNC4xNiwxMC45MjMsMCwxNS4wODNsMjM0LjY2NywyMzQuNjY3YzIuMDkxLDIuMDY5LDQuODIxLDMuMTE1LDcuNTUyLDMuMTE1czUuNDYxLTEuMDQ1LDcuNTMxLTMuMTM2bDIzNC42NjctMjM0LjY2N0M0OTEuNjk2LDEzMS4zNjgsNDkxLjY5NiwxMjQuNjA1LDQ4Ny41MzYsMTIwLjQ0NXoiLz48L2c+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjwvc3ZnPg=="); }
+  form.simple-form.dark .form-heading {
+    color: #E4E6EB; }
+  form.simple-form.dark .simple-tooltip {
+    color: #222222;
+    background-color: #ffffff;
+    box-shadow: #030303 0 0 20px; }
+  form.simple-form.dark .sf-message {
+    background-color: #222222; }
+  form.simple-form.dark .simple-files .simple-files-trigger {
+    border-color: #A2A2A2; }
+    form.simple-form.dark .simple-files .simple-files-trigger strong {
+      color: #E1E1E9; }
+    form.simple-form.dark .simple-files .simple-files-trigger:hover {
+      border-color: #82B440; }
+  form.simple-form.dark .simple-files .sf-list {
+    border-color: transparent; }
+    form.simple-form.dark .simple-files .sf-list .sf-header {
+      background-color: #333;
+      border-color: #666; }
+  form.simple-form.dark .simple-files .sf-file-item {
+    opacity: 1;
+    background-color: #333; }
+  form.simple-form.dark .simple-files .sf-file-info {
+    color: #E1E1E9; }
+  form.simple-form.dark .simple-files .sf-counter {
+    color: #E1E1E9; }
+    form.simple-form.dark .simple-files .sf-counter .sf-counter-size {
+      color: #E1E1E9; }
+  form.simple-form.dark .simple-files .sf-counter svg path,
+  form.simple-form.dark .simple-files .sf-closer svg path {
+    fill: #B8B8B8; }
+  form.simple-form.dark.classic-style input, form.simple-form.dark.classic-style textarea, form.simple-form.dark.classic-style select {
+    border: 2px solid #555555; }
+  form.simple-form.dark.classic-rounded-style input, form.simple-form.dark.classic-rounded-style textarea, form.simple-form.dark.classic-rounded-style select {
+    border: 2px solid #555555;
+    border-radius: 6px; }
+  form.simple-form.dark.modern-style input, form.simple-form.dark.modern-style textarea, form.simple-form.dark.modern-style select {
+    border: 0;
+    height: 48px;
+    background-color: #333333; }
+  form.simple-form.dark.modern-rounded-style input, form.simple-form.dark.modern-rounded-style select {
+    height: 48px; }
+  form.simple-form.dark.modern-rounded-style input, form.simple-form.dark.modern-rounded-style textarea, form.simple-form.dark.modern-rounded-style select {
+    border: 0;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #333333; }
+  form.simple-form.dark input.error,
+  form.simple-form.dark select.error,
+  form.simple-form.dark textarea.error {
+    background: rgba(226, 46, 46, 0.5);
+    border-color: transparent !important; }
+  form.simple-form.dark input:focus,
+  form.simple-form.dark select:focus,
+  form.simple-form.dark textarea:focus {
+    background: #444444; }
+
+/*************************************************************
+* FORM THEME VARIATIONS
+*
+* Adjust here theme variations
+**************************************************************/
+form.simple-form.purple {
+  background: linear-gradient(45deg, #6447da 30%, #fd7dc9 100%); }
+
+form.simple-form.green {
+  background: linear-gradient(45deg, #5da63b 30%, #a8dd6a 100%); }
+
+form.simple-form.blue {
+  background: linear-gradient(45deg, #5e5cc4 30%, #8a89f0 100%); }
+
+form.simple-form.red {
+  background: linear-gradient(45deg, #8d040a 30%, #bd0712 100%); }
+
+form.simple-form.faded-light {
+  background: rgba(255, 255, 255, 0.2); }
+
+form.simple-form.faded-dark {
+  background: rgba(0, 0, 0, 0.5); }
+
+form.simple-form.purple,
+form.simple-form.green,
+form.simple-form.blue,
+form.simple-form.red,
+form.simple-form.faded-light,
+form.simple-form.faded-dark,
+form.simple-form.custom {
+  color: #ffffff; }
+  form.simple-form.purple .consent,
+  form.simple-form.green .consent,
+  form.simple-form.blue .consent,
+  form.simple-form.red .consent,
+  form.simple-form.faded-light .consent,
+  form.simple-form.faded-dark .consent,
+  form.simple-form.custom .consent {
+    color: rgba(255, 255, 255, 0.75); }
+    form.simple-form.purple .consent a,
+    form.simple-form.green .consent a,
+    form.simple-form.blue .consent a,
+    form.simple-form.red .consent a,
+    form.simple-form.faded-light .consent a,
+    form.simple-form.faded-dark .consent a,
+    form.simple-form.custom .consent a {
+      color: #ffffff; }
+  form.simple-form.purple input,
+  form.simple-form.purple textarea,
+  form.simple-form.purple select,
+  form.simple-form.green input,
+  form.simple-form.green textarea,
+  form.simple-form.green select,
+  form.simple-form.blue input,
+  form.simple-form.blue textarea,
+  form.simple-form.blue select,
+  form.simple-form.red input,
+  form.simple-form.red textarea,
+  form.simple-form.red select,
+  form.simple-form.faded-light input,
+  form.simple-form.faded-light textarea,
+  form.simple-form.faded-light select,
+  form.simple-form.faded-dark input,
+  form.simple-form.faded-dark textarea,
+  form.simple-form.faded-dark select,
+  form.simple-form.custom input,
+  form.simple-form.custom textarea,
+  form.simple-form.custom select {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.5); }
+  form.simple-form.purple select,
+  form.simple-form.green select,
+  form.simple-form.blue select,
+  form.simple-form.red select,
+  form.simple-form.faded-light select,
+  form.simple-form.faded-dark select,
+  form.simple-form.custom select {
+    background-color: transparent;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5MC42NTYgNDkwLjY1NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDkwLjY1NiA0OTAuNjU2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQ4Ny41MzYsMTIwLjQ0NWMtNC4xNi00LjE2LTEwLjkyMy00LjE2LTE1LjA4MywwTDI0NS4zMzksMzQ3LjU4MUwxOC4yMDMsMTIwLjQ2N2MtNC4xNi00LjE2LTEwLjkyMy00LjE2LTE1LjA4MywwYy00LjE2LDQuMTYtNC4xNiwxMC45MjMsMCwxNS4wODNsMjM0LjY2NywyMzQuNjY3YzIuMDkxLDIuMDY5LDQuODIxLDMuMTE1LDcuNTUyLDMuMTE1czUuNDYxLTEuMDQ1LDcuNTMxLTMuMTM2bDIzNC42NjctMjM0LjY2N0M0OTEuNjk2LDEzMS4zNjgsNDkxLjY5NiwxMjQuNjA1LDQ4Ny41MzYsMTIwLjQ0NXoiLz48L2c+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjwvc3ZnPg=="); }
+  form.simple-form.purple.classic-style input, form.simple-form.purple.classic-style textarea, form.simple-form.purple.classic-style select,
+  form.simple-form.green.classic-style input,
+  form.simple-form.green.classic-style textarea,
+  form.simple-form.green.classic-style select,
+  form.simple-form.blue.classic-style input,
+  form.simple-form.blue.classic-style textarea,
+  form.simple-form.blue.classic-style select,
+  form.simple-form.red.classic-style input,
+  form.simple-form.red.classic-style textarea,
+  form.simple-form.red.classic-style select,
+  form.simple-form.faded-light.classic-style input,
+  form.simple-form.faded-light.classic-style textarea,
+  form.simple-form.faded-light.classic-style select,
+  form.simple-form.faded-dark.classic-style input,
+  form.simple-form.faded-dark.classic-style textarea,
+  form.simple-form.faded-dark.classic-style select,
+  form.simple-form.custom.classic-style input,
+  form.simple-form.custom.classic-style textarea,
+  form.simple-form.custom.classic-style select {
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    background-color: transparent; }
+  form.simple-form.purple.classic-rounded-style input, form.simple-form.purple.classic-rounded-style textarea, form.simple-form.purple.classic-rounded-style select,
+  form.simple-form.green.classic-rounded-style input,
+  form.simple-form.green.classic-rounded-style textarea,
+  form.simple-form.green.classic-rounded-style select,
+  form.simple-form.blue.classic-rounded-style input,
+  form.simple-form.blue.classic-rounded-style textarea,
+  form.simple-form.blue.classic-rounded-style select,
+  form.simple-form.red.classic-rounded-style input,
+  form.simple-form.red.classic-rounded-style textarea,
+  form.simple-form.red.classic-rounded-style select,
+  form.simple-form.faded-light.classic-rounded-style input,
+  form.simple-form.faded-light.classic-rounded-style textarea,
+  form.simple-form.faded-light.classic-rounded-style select,
+  form.simple-form.faded-dark.classic-rounded-style input,
+  form.simple-form.faded-dark.classic-rounded-style textarea,
+  form.simple-form.faded-dark.classic-rounded-style select,
+  form.simple-form.custom.classic-rounded-style input,
+  form.simple-form.custom.classic-rounded-style textarea,
+  form.simple-form.custom.classic-rounded-style select {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 6px; }
+  form.simple-form.purple.classic-rounded-style input:focus, form.simple-form.purple.classic-rounded-style textarea:focus, form.simple-form.purple.classic-rounded-style select:focus,
+  form.simple-form.green.classic-rounded-style input:focus,
+  form.simple-form.green.classic-rounded-style textarea:focus,
+  form.simple-form.green.classic-rounded-style select:focus,
+  form.simple-form.blue.classic-rounded-style input:focus,
+  form.simple-form.blue.classic-rounded-style textarea:focus,
+  form.simple-form.blue.classic-rounded-style select:focus,
+  form.simple-form.red.classic-rounded-style input:focus,
+  form.simple-form.red.classic-rounded-style textarea:focus,
+  form.simple-form.red.classic-rounded-style select:focus,
+  form.simple-form.faded-light.classic-rounded-style input:focus,
+  form.simple-form.faded-light.classic-rounded-style textarea:focus,
+  form.simple-form.faded-light.classic-rounded-style select:focus,
+  form.simple-form.faded-dark.classic-rounded-style input:focus,
+  form.simple-form.faded-dark.classic-rounded-style textarea:focus,
+  form.simple-form.faded-dark.classic-rounded-style select:focus,
+  form.simple-form.custom.classic-rounded-style input:focus,
+  form.simple-form.custom.classic-rounded-style textarea:focus,
+  form.simple-form.custom.classic-rounded-style select:focus {
+    border-color: #ffffff; }
+  form.simple-form.purple.modern-style input, form.simple-form.purple.modern-style textarea, form.simple-form.purple.modern-style select,
+  form.simple-form.green.modern-style input,
+  form.simple-form.green.modern-style textarea,
+  form.simple-form.green.modern-style select,
+  form.simple-form.blue.modern-style input,
+  form.simple-form.blue.modern-style textarea,
+  form.simple-form.blue.modern-style select,
+  form.simple-form.red.modern-style input,
+  form.simple-form.red.modern-style textarea,
+  form.simple-form.red.modern-style select,
+  form.simple-form.faded-light.modern-style input,
+  form.simple-form.faded-light.modern-style textarea,
+  form.simple-form.faded-light.modern-style select,
+  form.simple-form.faded-dark.modern-style input,
+  form.simple-form.faded-dark.modern-style textarea,
+  form.simple-form.faded-dark.modern-style select,
+  form.simple-form.custom.modern-style input,
+  form.simple-form.custom.modern-style textarea,
+  form.simple-form.custom.modern-style select {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.2); }
+  form.simple-form.purple.modern-style input:focus, form.simple-form.purple.modern-style textarea:focus, form.simple-form.purple.modern-style select:focus,
+  form.simple-form.green.modern-style input:focus,
+  form.simple-form.green.modern-style textarea:focus,
+  form.simple-form.green.modern-style select:focus,
+  form.simple-form.blue.modern-style input:focus,
+  form.simple-form.blue.modern-style textarea:focus,
+  form.simple-form.blue.modern-style select:focus,
+  form.simple-form.red.modern-style input:focus,
+  form.simple-form.red.modern-style textarea:focus,
+  form.simple-form.red.modern-style select:focus,
+  form.simple-form.faded-light.modern-style input:focus,
+  form.simple-form.faded-light.modern-style textarea:focus,
+  form.simple-form.faded-light.modern-style select:focus,
+  form.simple-form.faded-dark.modern-style input:focus,
+  form.simple-form.faded-dark.modern-style textarea:focus,
+  form.simple-form.faded-dark.modern-style select:focus,
+  form.simple-form.custom.modern-style input:focus,
+  form.simple-form.custom.modern-style textarea:focus,
+  form.simple-form.custom.modern-style select:focus {
+    background-color: rgba(0, 0, 0, 0.2); }
+  form.simple-form.purple.modern-rounded-style input, form.simple-form.purple.modern-rounded-style select,
+  form.simple-form.green.modern-rounded-style input,
+  form.simple-form.green.modern-rounded-style select,
+  form.simple-form.blue.modern-rounded-style input,
+  form.simple-form.blue.modern-rounded-style select,
+  form.simple-form.red.modern-rounded-style input,
+  form.simple-form.red.modern-rounded-style select,
+  form.simple-form.faded-light.modern-rounded-style input,
+  form.simple-form.faded-light.modern-rounded-style select,
+  form.simple-form.faded-dark.modern-rounded-style input,
+  form.simple-form.faded-dark.modern-rounded-style select,
+  form.simple-form.custom.modern-rounded-style input,
+  form.simple-form.custom.modern-rounded-style select {
+    height: 48px; }
+  form.simple-form.purple.modern-rounded-style input, form.simple-form.purple.modern-rounded-style textarea, form.simple-form.purple.modern-rounded-style select,
+  form.simple-form.green.modern-rounded-style input,
+  form.simple-form.green.modern-rounded-style textarea,
+  form.simple-form.green.modern-rounded-style select,
+  form.simple-form.blue.modern-rounded-style input,
+  form.simple-form.blue.modern-rounded-style textarea,
+  form.simple-form.blue.modern-rounded-style select,
+  form.simple-form.red.modern-rounded-style input,
+  form.simple-form.red.modern-rounded-style textarea,
+  form.simple-form.red.modern-rounded-style select,
+  form.simple-form.faded-light.modern-rounded-style input,
+  form.simple-form.faded-light.modern-rounded-style textarea,
+  form.simple-form.faded-light.modern-rounded-style select,
+  form.simple-form.faded-dark.modern-rounded-style input,
+  form.simple-form.faded-dark.modern-rounded-style textarea,
+  form.simple-form.faded-dark.modern-rounded-style select,
+  form.simple-form.custom.modern-rounded-style input,
+  form.simple-form.custom.modern-rounded-style textarea,
+  form.simple-form.custom.modern-rounded-style select {
+    border: 0;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 0.2); }
+  form.simple-form.purple.modern-rounded-style input:focus, form.simple-form.purple.modern-rounded-style textarea:focus, form.simple-form.purple.modern-rounded-style select:focus,
+  form.simple-form.green.modern-rounded-style input:focus,
+  form.simple-form.green.modern-rounded-style textarea:focus,
+  form.simple-form.green.modern-rounded-style select:focus,
+  form.simple-form.blue.modern-rounded-style input:focus,
+  form.simple-form.blue.modern-rounded-style textarea:focus,
+  form.simple-form.blue.modern-rounded-style select:focus,
+  form.simple-form.red.modern-rounded-style input:focus,
+  form.simple-form.red.modern-rounded-style textarea:focus,
+  form.simple-form.red.modern-rounded-style select:focus,
+  form.simple-form.faded-light.modern-rounded-style input:focus,
+  form.simple-form.faded-light.modern-rounded-style textarea:focus,
+  form.simple-form.faded-light.modern-rounded-style select:focus,
+  form.simple-form.faded-dark.modern-rounded-style input:focus,
+  form.simple-form.faded-dark.modern-rounded-style textarea:focus,
+  form.simple-form.faded-dark.modern-rounded-style select:focus,
+  form.simple-form.custom.modern-rounded-style input:focus,
+  form.simple-form.custom.modern-rounded-style textarea:focus,
+  form.simple-form.custom.modern-rounded-style select:focus {
+    background-color: rgba(0, 0, 0, 0.2); }
+  form.simple-form.purple :-ms-input-placeholder,
+  form.simple-form.green :-ms-input-placeholder,
+  form.simple-form.blue :-ms-input-placeholder,
+  form.simple-form.red :-ms-input-placeholder,
+  form.simple-form.faded-light :-ms-input-placeholder,
+  form.simple-form.faded-dark :-ms-input-placeholder,
+  form.simple-form.custom :-ms-input-placeholder {
+    color: #ffffff !important;
+    opacity: 0.75 !important; }
+  form.simple-form.purple ::-webkit-input-placeholder,
+  form.simple-form.green ::-webkit-input-placeholder,
+  form.simple-form.blue ::-webkit-input-placeholder,
+  form.simple-form.red ::-webkit-input-placeholder,
+  form.simple-form.faded-light ::-webkit-input-placeholder,
+  form.simple-form.faded-dark ::-webkit-input-placeholder,
+  form.simple-form.custom ::-webkit-input-placeholder {
+    color: #ffffff;
+    opacity: 0.75; }
+  form.simple-form.purple ::-moz-placeholder,
+  form.simple-form.green ::-moz-placeholder,
+  form.simple-form.blue ::-moz-placeholder,
+  form.simple-form.red ::-moz-placeholder,
+  form.simple-form.faded-light ::-moz-placeholder,
+  form.simple-form.faded-dark ::-moz-placeholder,
+  form.simple-form.custom ::-moz-placeholder {
+    color: #ffffff;
+    opacity: 0.75; }
+  form.simple-form.purple .form-heading,
+  form.simple-form.green .form-heading,
+  form.simple-form.blue .form-heading,
+  form.simple-form.red .form-heading,
+  form.simple-form.faded-light .form-heading,
+  form.simple-form.faded-dark .form-heading,
+  form.simple-form.custom .form-heading {
+    color: #ffffff; }
+  form.simple-form.purple .simple-tooltip,
+  form.simple-form.green .simple-tooltip,
+  form.simple-form.blue .simple-tooltip,
+  form.simple-form.red .simple-tooltip,
+  form.simple-form.faded-light .simple-tooltip,
+  form.simple-form.faded-dark .simple-tooltip,
+  form.simple-form.custom .simple-tooltip {
+    color: #222222;
+    background-color: #ffffff; }
+  form.simple-form.purple .sf-message,
+  form.simple-form.green .sf-message,
+  form.simple-form.blue .sf-message,
+  form.simple-form.red .sf-message,
+  form.simple-form.faded-light .sf-message,
+  form.simple-form.faded-dark .sf-message,
+  form.simple-form.custom .sf-message {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 0;
+    color: #222222; }
+  form.simple-form.purple .simple-error-label:not(.simple-tooltip),
+  form.simple-form.green .simple-error-label:not(.simple-tooltip),
+  form.simple-form.blue .simple-error-label:not(.simple-tooltip),
+  form.simple-form.red .simple-error-label:not(.simple-tooltip),
+  form.simple-form.faded-light .simple-error-label:not(.simple-tooltip),
+  form.simple-form.faded-dark .simple-error-label:not(.simple-tooltip),
+  form.simple-form.custom .simple-error-label:not(.simple-tooltip) {
+    color: #ffffff; }
+  form.simple-form.purple .simple-error-label.simple-alert,
+  form.simple-form.green .simple-error-label.simple-alert,
+  form.simple-form.blue .simple-error-label.simple-alert,
+  form.simple-form.red .simple-error-label.simple-alert,
+  form.simple-form.faded-light .simple-error-label.simple-alert,
+  form.simple-form.faded-dark .simple-error-label.simple-alert,
+  form.simple-form.custom .simple-error-label.simple-alert {
+    color: #ff4081; }
+  form.simple-form.purple .simple-files .simple-files-trigger,
+  form.simple-form.green .simple-files .simple-files-trigger,
+  form.simple-form.blue .simple-files .simple-files-trigger,
+  form.simple-form.red .simple-files .simple-files-trigger,
+  form.simple-form.faded-light .simple-files .simple-files-trigger,
+  form.simple-form.faded-dark .simple-files .simple-files-trigger,
+  form.simple-form.custom .simple-files .simple-files-trigger {
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.4); }
+    form.simple-form.purple .simple-files .simple-files-trigger strong,
+    form.simple-form.green .simple-files .simple-files-trigger strong,
+    form.simple-form.blue .simple-files .simple-files-trigger strong,
+    form.simple-form.red .simple-files .simple-files-trigger strong,
+    form.simple-form.faded-light .simple-files .simple-files-trigger strong,
+    form.simple-form.faded-dark .simple-files .simple-files-trigger strong,
+    form.simple-form.custom .simple-files .simple-files-trigger strong {
+      color: #ffffff; }
+    form.simple-form.purple .simple-files .simple-files-trigger:hover,
+    form.simple-form.green .simple-files .simple-files-trigger:hover,
+    form.simple-form.blue .simple-files .simple-files-trigger:hover,
+    form.simple-form.red .simple-files .simple-files-trigger:hover,
+    form.simple-form.faded-light .simple-files .simple-files-trigger:hover,
+    form.simple-form.faded-dark .simple-files .simple-files-trigger:hover,
+    form.simple-form.custom .simple-files .simple-files-trigger:hover {
+      border-color: rgba(255, 255, 255, 0.7); }
+  form.simple-form.purple .simple-files .sf-list,
+  form.simple-form.green .simple-files .sf-list,
+  form.simple-form.blue .simple-files .sf-list,
+  form.simple-form.red .simple-files .sf-list,
+  form.simple-form.faded-light .simple-files .sf-list,
+  form.simple-form.faded-dark .simple-files .sf-list,
+  form.simple-form.custom .simple-files .sf-list {
+    border-color: transparent; }
+    form.simple-form.purple .simple-files .sf-list .sf-header,
+    form.simple-form.green .simple-files .sf-list .sf-header,
+    form.simple-form.blue .simple-files .sf-list .sf-header,
+    form.simple-form.red .simple-files .sf-list .sf-header,
+    form.simple-form.faded-light .simple-files .sf-list .sf-header,
+    form.simple-form.faded-dark .simple-files .sf-list .sf-header,
+    form.simple-form.custom .simple-files .sf-list .sf-header {
+      background-color: #ffffff;
+      border-color: #E1E1E9; }
+  form.simple-form.purple .simple-files .sf-file-item,
+  form.simple-form.green .simple-files .sf-file-item,
+  form.simple-form.blue .simple-files .sf-file-item,
+  form.simple-form.red .simple-files .sf-file-item,
+  form.simple-form.faded-light .simple-files .sf-file-item,
+  form.simple-form.faded-dark .simple-files .sf-file-item,
+  form.simple-form.custom .simple-files .sf-file-item {
+    opacity: 1;
+    background-color: #ffffff; }
+  form.simple-form.purple .simple-files .sf-file-info,
+  form.simple-form.green .simple-files .sf-file-info,
+  form.simple-form.blue .simple-files .sf-file-info,
+  form.simple-form.red .simple-files .sf-file-info,
+  form.simple-form.faded-light .simple-files .sf-file-info,
+  form.simple-form.faded-dark .simple-files .sf-file-info,
+  form.simple-form.custom .simple-files .sf-file-info {
+    color: #222222; }
+  form.simple-form.purple .simple-files .sf-counter,
+  form.simple-form.green .simple-files .sf-counter,
+  form.simple-form.blue .simple-files .sf-counter,
+  form.simple-form.red .simple-files .sf-counter,
+  form.simple-form.faded-light .simple-files .sf-counter,
+  form.simple-form.faded-dark .simple-files .sf-counter,
+  form.simple-form.custom .simple-files .sf-counter {
+    color: #222222; }
+    form.simple-form.purple .simple-files .sf-counter .sf-counter-size,
+    form.simple-form.green .simple-files .sf-counter .sf-counter-size,
+    form.simple-form.blue .simple-files .sf-counter .sf-counter-size,
+    form.simple-form.red .simple-files .sf-counter .sf-counter-size,
+    form.simple-form.faded-light .simple-files .sf-counter .sf-counter-size,
+    form.simple-form.faded-dark .simple-files .sf-counter .sf-counter-size,
+    form.simple-form.custom .simple-files .sf-counter .sf-counter-size {
+      color: #222222; }
+  form.simple-form.purple .simple-files .sf-counter svg path,
+  form.simple-form.purple .simple-files .sf-closer svg path,
+  form.simple-form.green .simple-files .sf-counter svg path,
+  form.simple-form.green .simple-files .sf-closer svg path,
+  form.simple-form.blue .simple-files .sf-counter svg path,
+  form.simple-form.blue .simple-files .sf-closer svg path,
+  form.simple-form.red .simple-files .sf-counter svg path,
+  form.simple-form.red .simple-files .sf-closer svg path,
+  form.simple-form.faded-light .simple-files .sf-counter svg path,
+  form.simple-form.faded-light .simple-files .sf-closer svg path,
+  form.simple-form.faded-dark .simple-files .sf-counter svg path,
+  form.simple-form.faded-dark .simple-files .sf-closer svg path,
+  form.simple-form.custom .simple-files .sf-counter svg path,
+  form.simple-form.custom .simple-files .sf-closer svg path {
+    fill: #A2A2A2; }
+  form.simple-form.purple input[type=submit],
+  form.simple-form.purple button[type=submit],
+  form.simple-form.green input[type=submit],
+  form.simple-form.green button[type=submit],
+  form.simple-form.blue input[type=submit],
+  form.simple-form.blue button[type=submit],
+  form.simple-form.red input[type=submit],
+  form.simple-form.red button[type=submit],
+  form.simple-form.faded-light input[type=submit],
+  form.simple-form.faded-light button[type=submit],
+  form.simple-form.faded-dark input[type=submit],
+  form.simple-form.faded-dark button[type=submit],
+  form.simple-form.custom input[type=submit],
+  form.simple-form.custom button[type=submit] {
+    color: #222222;
+    background-color: #ffffff; }
+    form.simple-form.purple input[type=submit]:hover,
+    form.simple-form.purple button[type=submit]:hover,
+    form.simple-form.green input[type=submit]:hover,
+    form.simple-form.green button[type=submit]:hover,
+    form.simple-form.blue input[type=submit]:hover,
+    form.simple-form.blue button[type=submit]:hover,
+    form.simple-form.red input[type=submit]:hover,
+    form.simple-form.red button[type=submit]:hover,
+    form.simple-form.faded-light input[type=submit]:hover,
+    form.simple-form.faded-light button[type=submit]:hover,
+    form.simple-form.faded-dark input[type=submit]:hover,
+    form.simple-form.faded-dark button[type=submit]:hover,
+    form.simple-form.custom input[type=submit]:hover,
+    form.simple-form.custom button[type=submit]:hover {
+      color: #222222;
+      background-color: #ffffff; }
+    form.simple-form.purple input[type=submit]:hover, form.simple-form.purple input[type=submit]:focus,
+    form.simple-form.purple button[type=submit]:hover,
+    form.simple-form.purple button[type=submit]:focus,
+    form.simple-form.green input[type=submit]:hover,
+    form.simple-form.green input[type=submit]:focus,
+    form.simple-form.green button[type=submit]:hover,
+    form.simple-form.green button[type=submit]:focus,
+    form.simple-form.blue input[type=submit]:hover,
+    form.simple-form.blue input[type=submit]:focus,
+    form.simple-form.blue button[type=submit]:hover,
+    form.simple-form.blue button[type=submit]:focus,
+    form.simple-form.red input[type=submit]:hover,
+    form.simple-form.red input[type=submit]:focus,
+    form.simple-form.red button[type=submit]:hover,
+    form.simple-form.red button[type=submit]:focus,
+    form.simple-form.faded-light input[type=submit]:hover,
+    form.simple-form.faded-light input[type=submit]:focus,
+    form.simple-form.faded-light button[type=submit]:hover,
+    form.simple-form.faded-light button[type=submit]:focus,
+    form.simple-form.faded-dark input[type=submit]:hover,
+    form.simple-form.faded-dark input[type=submit]:focus,
+    form.simple-form.faded-dark button[type=submit]:hover,
+    form.simple-form.faded-dark button[type=submit]:focus,
+    form.simple-form.custom input[type=submit]:hover,
+    form.simple-form.custom input[type=submit]:focus,
+    form.simple-form.custom button[type=submit]:hover,
+    form.simple-form.custom button[type=submit]:focus {
+      box-shadow: rgba(0, 0, 0, 0.15) 0 10px 30px; }
+  form.simple-form.purple input.error,
+  form.simple-form.purple select.error,
+  form.simple-form.purple textarea.error,
+  form.simple-form.green input.error,
+  form.simple-form.green select.error,
+  form.simple-form.green textarea.error,
+  form.simple-form.blue input.error,
+  form.simple-form.blue select.error,
+  form.simple-form.blue textarea.error,
+  form.simple-form.red input.error,
+  form.simple-form.red select.error,
+  form.simple-form.red textarea.error,
+  form.simple-form.faded-light input.error,
+  form.simple-form.faded-light select.error,
+  form.simple-form.faded-light textarea.error,
+  form.simple-form.faded-dark input.error,
+  form.simple-form.faded-dark select.error,
+  form.simple-form.faded-dark textarea.error,
+  form.simple-form.custom input.error,
+  form.simple-form.custom select.error,
+  form.simple-form.custom textarea.error {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: none; }
+  form.simple-form.purple :-ms-input-placeholder,
+  form.simple-form.green :-ms-input-placeholder,
+  form.simple-form.blue :-ms-input-placeholder,
+  form.simple-form.red :-ms-input-placeholder,
+  form.simple-form.faded-light :-ms-input-placeholder,
+  form.simple-form.faded-dark :-ms-input-placeholder,
+  form.simple-form.custom :-ms-input-placeholder {
+    opacity: 0.7 !important; }
+  form.simple-form.purple ::-webkit-input-placeholder,
+  form.simple-form.green ::-webkit-input-placeholder,
+  form.simple-form.blue ::-webkit-input-placeholder,
+  form.simple-form.red ::-webkit-input-placeholder,
+  form.simple-form.faded-light ::-webkit-input-placeholder,
+  form.simple-form.faded-dark ::-webkit-input-placeholder,
+  form.simple-form.custom ::-webkit-input-placeholder {
+    opacity: 0.7; }
+  form.simple-form.purple ::-moz-placeholder,
+  form.simple-form.green ::-moz-placeholder,
+  form.simple-form.blue ::-moz-placeholder,
+  form.simple-form.red ::-moz-placeholder,
+  form.simple-form.faded-light ::-moz-placeholder,
+  form.simple-form.faded-dark ::-moz-placeholder,
+  form.simple-form.custom ::-moz-placeholder {
+    opacity: 0.7; }
+
+/*************************************************************
+* CUSTOM FORM THEME
+*
+* Adjust here your custom styles
+**************************************************************/
+form.simple-form.custom {
+  background-color: #6447DA; }
+
+/*************************************************************
+* FORM FIELDS STYLE
+*
+* Adjust here form fields styles
+**************************************************************/
+/*************************************************************
+* ERRORS HIGHLIGHT
+*
+* add style for error fields
+**************************************************************/
+form.simple-form input.error,
+form.simple-form select.error,
+form.simple-form textarea.error {
+  border-color: #ff4081 !important; }
+
+/*************************************************************
+* ACCESSIBILITY
+*
+* effects for people with disabilities
+**************************************************************/
+.tab_highlight input:focus,
+.tab_highlight textarea:focus,
+.tab_highlight select:focus {
+  color: #000000 !important;
+  background-color: #ffff00 !important; }
+
+/*************************************************************
+* FORM REPLACEMENT MESSAGE
+*
+* add style for the form replacement message
+**************************************************************/
+.sf-short-response {
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0; }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=simple-forms.css.map */

@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>SIMPLE FORMS V.3.0 DOCS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/prism.css">
+    <link rel="stylesheet" href="../css/simple-forms.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="tab_sidebar pretty_scroll">
+    <div class="tab_sidebar_main">
+        <div class="sidebar_box sidebar_logo">
+            <h1>
+                SIMPLE FORMS <br> V.3.0
+            </h1>
+            <div class="description">
+                Thanks form using <br>SimpleForms<br>
+                <svg class="heartbeat" width="24" height="24" viewBox="0 -28 512.00002 512" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" d="m471.382812 44.578125c-26.503906-28.746094-62.871093-44.578125-102.410156-44.578125-29.554687 0-56.621094 9.34375-80.449218 27.769531-12.023438 9.300781-22.917969 20.679688-32.523438 33.960938-9.601562-13.277344-20.5-24.660157-32.527344-33.960938-23.824218-18.425781-50.890625-27.769531-80.445312-27.769531-39.539063 0-75.910156 15.832031-102.414063 44.578125-26.1875 28.410156-40.613281 67.222656-40.613281 109.292969 0 43.300781 16.136719 82.9375 50.78125 124.742187 30.992188 37.394531 75.535156 75.355469 127.117188 119.3125 17.613281 15.011719 37.578124 32.027344 58.308593 50.152344 5.476563 4.796875 12.503907 7.4375 19.792969 7.4375 7.285156 0 14.316406-2.640625 19.785156-7.429687 20.730469-18.128907 40.707032-35.152344 58.328125-50.171876 51.574219-43.949218 96.117188-81.90625 127.109375-119.304687 34.644532-41.800781 50.777344-81.4375 50.777344-124.742187 0-42.066407-14.425781-80.878907-40.617188-109.289063zm0 0"></path></svg>
+            </div>
+        </div>
+
+        <div class="sidebar_box no_padding">
+            <ul id="tab_nav" class="js_tab" data-target="#docs_tab">
+                <li class="active">Simple Forms v.3.0</li>
+                <li>1. Installation</li>
+                <li>2. Styling & Configuration </li>
+                <li>3. Back-end Configuration </li>
+                <li>4. Captcha </li>
+                <li>5. Redirect </li>
+                <li>6. Drag & Drop Files </li>
+                <li>7. Advanced Validation </li>
+                <li>8. Feedback </li>
+            </ul>
+        </div>
+
+        <div class="copy">
+            &copy; 2019. <a href="https://codecanyon.net/item/ajax-contact-form-mobile-first/25185499" target="_blank">SimpleForm</a> by <a href="https://codecanyon.net/user/niculucas" target="_blank">Lucas Games</a>.
+        </div>
+    </div>
+</div>
+
+    <div class="wide_section">
+        <div class="tab_content_wrapper">
+            <ul id="docs_tab" class="tab_content">
+                <li class="active">
+                    <div class="content">
+                        <h2>
+                            Meet <strong>SimpleForms</strong> v.3.0
+                        </h2>
+
+                        <hr>
+
+                        <div class="sf-wrapper sf-hide">
+                            <form id="contact-form" class="simple-form white default-style" action="simple-forms/sendmail.php" method="post">
+                                <div class="form-heading">
+                                    <h4>Contact US</h4>
+                                    <p>
+                                        We are here to help.
+                                    </p>
+                                </div>
+
+                                <div class="grid">
+                                    <div class="grid-col-md-6">
+                                        <label>
+                                            <input type="text" name="name" value="" class="validate-name" min="2" placeholder="Name*" required>
+                                        </label>
+                                    </div>
+                                    <div class="grid-col-md-6">
+                                        <label>
+                                            <input type="text" name="phone" class="validate-phone" placeholder="Phone*" required>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <label>
+                                    <input type="text" name="email" class="validate-email" value="" placeholder="E-mail address*">
+                                </label>
+
+                                <label>
+                                    <input type="text" name="url" class="validate-email" value="" placeholder="Social Profile">
+                                </label>
+
+                                <label>
+                                    <input type="date" name="date" class="validate-email" value="" placeholder="Pick a date">
+                                </label>
+
+                                <label>
+                                    <select name="subject" title="demo" required>
+                                        <option value="">Choose subject</option>
+                                        <option value="Support">Support</option>
+                                        <option value="Offer">Special offer</option>
+                                        <option value="Offer">Other</option>
+                                    </select>
+                                </label>
+
+                                <label>
+                                    <textarea name="message" placeholder="Write your message here ..." required></textarea>
+                                </label>
+
+                                <div class="simple-files">
+                                    <label class="simple-file-label">
+                                        <input type="file" name="files[]" multiple>
+                                        <span class="simple-files-trigger"><strong>Select</strong> or drop files here.</span>
+                                    </label>
+                                </div>
+
+                                <div class="form-submit text-center">
+                                    <button type="submit">Send now</button>
+                                </div>
+
+                                <div class="consent">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="simple-consent-checkbox" name="consent" value="agree" required="" checked>
+                                        <span class="custom-checkbox-button"></span>
+
+                                        By clicking the “Send now” button you agree to our <a href="#">Terms and Conditions</a>.
+                                    </label>
+                                </div>
+
+                                <div class="server-response"></div>
+                            </form>
+                        </div>
+
+
+                        <p>
+                            Standard contact forms work just fine, but we can make them outstanding using <b>SimpleForms</b>.
+                        </p>
+
+                        <p>
+                            Simple Forms has been built with simplicity in mind and helps you build simple to manage
+                            and user friendly contact forms in no time. Version 3.0 is out and brings
+                            a lot of new features and improvements.
+                        </p>
+
+                        <h3>
+                            Key Features:
+                        </h3>
+
+                        <ol>
+                            <li>
+                                <strong>No Plugins, just Javascript!</strong> The only dependency is
+                                <strong>translations script</strong> where you can add translations for
+                                error/info strings
+                            </li>
+                            <li>
+                                Updated form design. Choose between <strong>default</strong>,
+                                <strong>classic</strong> and <strong>modern</strong> fields style
+                            </li>
+                            <li><strong>Light, Dark</strong> and 6 more form color themes</li>
+                            <li>
+                                <strong>All configurations in one place</strong>. Now it's easier than ever to set up form validation,
+                                files uploading, captcha, redirect, accessibility and more
+                            </li>
+                            <li>
+                                <strong>Drag &amp; drop files upload</strong> (multiple folders supported). Select or
+                                drop files to upload
+                            </li>
+                            <li>
+                                <strong>SMTP configuration ready</strong>. Just enter your email to receive form submissions
+                            </li>
+                            <li>
+                                <strong>New email templates</strong>. Now you can choose between <strong>default</strong>,
+                                <strong>minimal</strong> and <strong>modern</strong> email templates
+                            </li>
+                            <li>
+                                <strong>Google reCaptcha</strong> version 2 and version 3 available with simple configuration.
+                                Also mathematical captcha added
+                            </li>
+                            <li>
+                                <strong>Custom validation rules</strong> for your form which can be set up all in one place
+                            </li>
+                            <li>Responsive Design (Mobile first)</li>
+                            <li>Clean and minimal <b>HTML/CSS/JS/PHP</b> Code</li>
+                            <li>Support Strict JavaScript Mode("use strict";)</li>
+                            <li><strong>Cross browser compatible</strong></li>
+                            <li><strong>Strong Validation</strong> (name, phone, email, date, url)</li>
+                            <li><strong>Agree Before Submit</strong> Feature</li>
+                            <li>Store or Delete Uploaded Files</li>
+                            <li><strong>Redirect to Success Page</strong> After Submit</li>
+                            <li>Server Side Fields Validation</li>
+                            <li><strong>Server Side Files Validation</strong></li>
+                            <li><strong>Auto responder</strong> Feature</li>
+                            <li><b>User IP Localization</b></li>
+                            <li><b>Server JSON String Response</b></li>
+                            <li>Success/errors <strong>strings translation</strong></li>
+                            <li>And more...</li>
+                        </ol>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <div class="content">
+                            <h2>
+                                1. <strong>Installation</strong>
+                            </h2>
+
+                            <hr>
+
+                            <h4>
+                                CSS Required Files
+                            </h4>
+                            <p>
+                               Link into your page required css file: <strong>simple-forms/css/simple-forms.css</strong>
+                            </p>
+
+                            <h4>
+                                JS Required Files
+                            </h4>
+
+                            <ol>
+                                <li><strong>simple-forms/js/simple-forms-translations.js</strong></li>
+                                <li><strong>simple-forms/js/simple-forms.min.js</strong></li>
+                            </ol>
+
+                            <h4>
+                                Example
+                            </h4>
+
+                            <pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&nbsp; &nbsp; &lt;meta charset=&quot;UTF-8&quot;/&gt;
+&nbsp; &nbsp; &lt;title&gt;Simple Ajax Contact Form&lt;/title&gt;
+&nbsp; &nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no&quot;&gt;
+
+&nbsp; &nbsp; &lt;link rel=&quot;stylesheet&quot; href=&quot;simple-forms/css/simple-forms.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    ...
+
+&nbsp; &nbsp; &lt;script src=&quot;simple-forms/js/simple-forms-translations.js&quot;&gt;&lt;/script&gt;
+&nbsp; &nbsp; &lt;script src=&quot;simple-forms/js/simple-forms.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+                            <p>
+                                After connecting required files, add your form.
+                            </p>
+
+                            <h3>Simple Form HTML markup</h3>
+
+<pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&nbsp; &nbsp; &lt;meta charset=&quot;UTF-8&quot;/&gt;
+&nbsp; &nbsp; &lt;title&gt;Simple Ajax Contact Form&lt;/title&gt;
+&nbsp; &nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no&quot;&gt;
+
+&nbsp; &nbsp; &lt;!-- Simple Forms Styles --&gt;
+&nbsp; &nbsp; &lt;link rel=&quot;stylesheet&quot; href=&quot;simple-forms/css/simple-forms.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;sf-wrapper&quot;&gt;
+    &lt;form id=&quot;contact-form&quot; class=&quot;simple-form white default-style&quot; action=&quot;simple-forms/sendmail.php&quot; method=&quot;post&quot;&gt;
+        &lt;div class=&quot;form-heading&quot;&gt;
+            &lt;h4&gt;Contact US&lt;/h4&gt;
+            &lt;p&gt;
+                We are here to help.
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;grid&quot;&gt;
+            &lt;div class=&quot;grid-col-md-6&quot;&gt;
+                &lt;label&gt;
+                    &lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;&quot; class=&quot;validate-name&quot; min=&quot;2&quot; placeholder=&quot;Name*&quot; required&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;grid-col-md-6&quot;&gt;
+                &lt;label&gt;
+                    &lt;input type=&quot;text&quot; name=&quot;phone&quot; class=&quot;validate-phone&quot; placeholder=&quot;Phone*&quot; required&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;email&quot; class=&quot;validate-email&quot; value=&quot;&quot; placeholder=&quot;E-mail address*&quot;&gt;
+        &lt;/label&gt;
+
+        &lt;label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;url&quot; class=&quot;validate-email&quot; value=&quot;&quot; placeholder=&quot;Social Profile&quot;&gt;
+        &lt;/label&gt;
+
+        &lt;label&gt;
+            &lt;input type=&quot;date&quot; name=&quot;date&quot; class=&quot;validate-email&quot; value=&quot;&quot; placeholder=&quot;Pick a date&quot;&gt;
+        &lt;/label&gt;
+
+        &lt;label&gt;
+            &lt;select name=&quot;subject&quot; title=&quot;demo&quot; required&gt;
+                &lt;option value=&quot;&quot;&gt;Choose subject&lt;/option&gt;
+                &lt;option value=&quot;Support&quot;&gt;Support&lt;/option&gt;
+                &lt;option value=&quot;Offer&quot;&gt;Special offer&lt;/option&gt;
+                &lt;option value=&quot;Offer&quot;&gt;Other&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/label&gt;
+
+        &lt;label&gt;
+            &lt;textarea name=&quot;message&quot; placeholder=&quot;Write your message here ...&quot; required&gt;&lt;/textarea&gt;
+        &lt;/label&gt;
+
+        &lt;div class=&quot;simple-files&quot;&gt;
+            &lt;label class=&quot;simple-file-label&quot;&gt;
+                &lt;input type=&quot;file&quot; name=&quot;files[]&quot; multiple&gt;
+                &lt;span class=&quot;simple-files-trigger&quot;&gt;&lt;strong&gt;Select&lt;/strong&gt; or drop files here.&lt;/span&gt;
+            &lt;/label&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-submit text-center&quot;&gt;
+            &lt;button type=&quot;submit&quot;&gt;Send now&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;consent&quot;&gt;
+            &lt;label class=&quot;custom-checkbox-label&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; class=&quot;simple-consent-checkbox&quot; name=&quot;consent&quot; value=&quot;agree&quot; required=&quot;&quot; checked&gt;
+                &lt;span class=&quot;custom-checkbox-button&quot;&gt;&lt;/span&gt;
+
+                By clicking the &ldquo;Send now&rdquo; button you agree to our &lt;a href=&quot;#&quot;&gt;Terms and Conditions&lt;/a&gt;.
+            &lt;/label&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;server-response&quot;&gt;&lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!-- Simple Forms Core Files --&gt;
+&lt;script src=&quot;simple-forms/js/simple-forms-translations.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;simple-forms/js/simple-forms.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+                            <p>
+                                <strong>IMPORTANT!</strong> Please make sure that form <b>action</b> attribute contain a
+                                valid path to <strong>sendmail.php</strong> (form handler) file.
+                            </p>
+
+                            <p>
+                                <b>NOTE:</b> For debugging open te browser console (F12 Key in Chrome/Mozilla/Internet Explorer OS Windows).
+                            </p>
+
+                            <p>
+                                <b>NOTE:</b> Sending emails to your inbox may not be delivered form local files in OS Windows.
+                                Consider testing the form on your hosting.
+                            </p>
+
+                            <p>
+                                Now we have the <b>full featured form</b>, white version, default style and we can test it!
+                                If all required files are properly connected <b>CSS/JS/PHP</b> our form should
+                                shine and send emails.
+                            </p>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <div class="content">
+                            <h2>2. <strong>Styling & Configuration</strong></h2>
+
+                            <hr>
+
+                            <p>
+                                <strong>Now it's time to customise your colors.</strong>
+                            </p>
+
+
+                            <p>
+                                <strong>Simple Forms</strong> comes in <b>8 different styles</b> and <strong>YES</strong> you can customize form
+                                styling or add another with ease.
+                            </p>
+
+                            <p>
+                                <b>NOTE:</b> All css rules are available in: <b>simple-forms/css/simple-forms.scss</b>.
+                                <br>
+                                Feel free to adjust your styles.
+                            </p>
+
+                            <h4>
+                                Available Form Styles
+                            </h4>
+                            <ol>
+                                <li>White</li>
+                                <li>Dark</li>
+                                <li>Fancy Purple (Gradient)</li>
+                                <li>Fresh Green (Gradient)</li>
+                                <li>Water Blue (Gradient)</li>
+                                <li>Shiny Red (Gradient)</li>
+                                <li>Faded Light</li>
+                                <li>Faded Dark</li>
+                            </ol>
+
+                            <p>
+                                <strong>Simple Forms</strong> comes with a lot of new and useful settings, all in one place.
+                                See comments bellow for description
+                            </p>
+
+                            <h3>
+                                Simple Forms Settings:
+                            </h3>
+
+                            <pre><code class="language-javascript">&lt;script&gt;
+var simple_forms = new SimpleForms("#contact-form", {
+    action: "",                          // set form action attribute, default value: simple-forms/sendmail.php
+    lang: "en",                          // language for error/info strings
+    theme: "white",                      // form color theme, options: white | dark | purple | red | green | blue | faded-light | faded-dark
+    fieldsStyle: "default",              // form fields style, options: default | classic | classic-rounded | modern | modern-rounded
+    ajaxSubmit: true,                    // send form using AJAX (no page reload)
+    validate: true,                      // enable form fields validation
+    validateOnKeyup: true,               // validate form fields On KeyUp Event
+    browserValidation: false,            // use browser validation
+    tooltips: true,                      // show validation errors as tooltips, if false will show errors as strings bellow the field
+    showErrors: true,                    // show validation errors
+    debug: true,                         // enable debugging mode (will show errors in browser console)
+    hideFormAfterSubmit: false,          // hide the form after submit
+    customSuccessMessage: "",            // overwrite server response with a custom message
+    formCSS: "",                         // add css styles to the form, example: box-shadow: none;
+    files: {
+        enabled: true,                   // enable files uploading
+        extensions: "jpg jpeg svg png",  // allowed extensions
+        min: 0,                          // min required files count
+        max: 10,                         // max allowed files count
+        maxFileSize: 24,                 // max file item size in MB
+        filesUploadHandler: "",          // files upload handler, default: simple-forms/files-upload-handler.php
+    },
+    redirect: {
+        enabled: false,                  // enable redirect after form submit
+        url: "success.html",             // url to redirect to
+        timeout: 3                       // redirect timeout (seconds), leave 0 for instant redirect
+    },
+    captcha: {
+        enabled: true,                   // enable captcha
+        type: "recaptcha-v3",            // set captcha type, options: math | recaptcha-v2 | recaptcha-v3
+        siteKey: "",                     // recaptcha SITE KEY, generate here: https://www.google.com/recaptcha/admin/create
+        theme: "light"                   // recaptcha theme color, options: light | dark
+    },
+    accessibility: {
+        escapeReset: true,               // press ESC key to reset/clear all form fields and files
+        tabHighlight: false              // press tab to highlight form fields
+    },
+    consent: true,                       // enable submit button after consent checkbox is checked
+    validator: {
+        rules: {                        // add custom validation rules
+            ".validate-name": {         // select form field with class .validate-name
+                required: true,         // add required attribute to form field
+                min: 2,                 // set field min attribute
+                max: 30,                // set field max attribute
+                name: true              // attach NAME validation
+            },
+            ".validate-phone": {
+                required: true,
+                min: 8,
+                max: 14,
+                phone: true              // attach PHONE validation
+            },
+            ".validate-email": {
+                required: true,
+                min: 8,
+                email: true              // attach EMAIL validation
+            },
+            ".validate-url": {
+                required: true,
+                min: 5,
+                url: true                // attach URL validation
+            },
+            ".validate-date": {
+                required: true,
+                min: 6,
+                date: true               // attach DATE validation
+            }
+        }
+    }
+});
+
+&lt;/script&gt;</code></pre>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <div class="content">
+                            <h2>
+                                3. <strong>Backend Configuration</strong>
+                            </h2>
+
+                            <hr>
+
+
+                            <h3>
+                                Backend Configuration (simple-forms/config.php)
+                            </h3>
+
+                            <p>
+                                All available form handler options are described bellow. Everything you need to set up is
+                                probably described here. There is a minimum required setup to start receiving emails.
+                            </p>
+
+                            <div class="table-wrapper">
+                                <table>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Type</th>
+                                        <th>Default</th>
+                                        <th>Description</th>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>COMPANY_NAME</strong></td>
+                                        <td><b style="color:#d19a66">string</b></td>
+                                        <td><b style="white-space: nowrap">Simple Forms</b></td>
+                                        <td>
+                                            Set your <b>company/brand name</b> (not required, but recommended)
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><strong>YOUR_EMAIL</strong></td>
+                                        <td><b style="color:#d19a66">string</b></td>
+                                        <td><b>empty</b></td>
+                                        <td>
+                                            <b style="color:red">* Required, your email address, example: my-email@gmail.com</b>
+                                            <br>
+                                            This email will receive form submissions.
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><strong>EMAILS_SUBJECT</strong></td>
+                                        <td><b style="color:#d19a66">string</b></td>
+                                        <td><b>New Form Submission</b></td>
+                                        <td>
+                                            <b style="color: red">* Required, email subject</b>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><strong>SEND_COPY_TO</strong></td>
+                                        <td><b style="color:#d19a66">string</b></td>
+                                        <td><b>empty</b></td>
+                                        <td>
+                                            Not required, comma separated emails which will get a copy: <br>
+                                            <b>myemail@gmail.com, myemail2@gmail.com</b>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><strong>USE_RECAPTCHA</strong></td>
+                                        <td><b style="color:#047857">boolean</b></td>
+                                        <td><b>true</b></td>
+                                        <td>
+                                            Enable recaptcha check, this require RECAPTCHA_V2_SECRET_KEY or RECAPTCHA_V3_SECRET_KEY to be setup
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><strong>RECAPTCHA_V2_SECRET_KEY</strong></td>
+                                        <td><b style="color:#d19a66">string</b></td>
+                                        <td><b>empty</b></td>
+                                        <td>
+                                            Recaptcha version 2 secret key, generate <a href="https://www.google.com/recaptcha/admin/create" target="_blank">here</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><strong>RECAPTCHA_V3_SECRET_KEY</strong></td>
+                                        <td><b style="color:#d19a66">string</b></td>
+                                        <td><b>empty</b></td>
+                                        <td>
+                                            Recaptcha version 3 secret key, generate <a href="https://www.google.com/recaptcha/admin/create" target="_blank">here</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><strong>DELETE_FILES_AFTER_MAIL</strong></td>
+                                        <td><b style="color:#047857">boolean</b></td>
+                                        <td><b>true</b></td>
+                                        <td>
+                                            Choose to delete or keep uploaded files after receiving emails
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>
+                            4. <strong>Captcha</strong>
+                        </h2>
+
+                        <hr>
+
+                        <p>
+                            <strong>Simple Forms</strong> has three build in captcha options.
+                        </p>
+
+                        <ol>
+                            <li>Mathematical captcha</li>
+                            <li>Google reCaptcha version 2</li>
+                            <li>Google reCaptcha version 3</li>
+                        </ol>
+
+                        <h4>
+                            Captcha configuration
+                        </h4>
+<pre><code class="language-javascript">var simple_forms = new SimpleForms("#contact-form", {
+    captcha: {
+        enabled: true,                   // enable captcha
+        type: "recaptcha-v3",            // set captcha type, options: math | recaptcha-v2 | recaptcha-v3
+        siteKey: "YOUR_SITE_KEY",        // recaptcha SITE KEY, generate here: https://www.google.com/recaptcha/admin/create
+        theme: "light"                   // recaptcha theme color, options: light | dark
+    }
+});
+</code></pre>
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>
+                            5.<strong> Redirect</strong>
+                        </h2>
+
+                        <hr>
+
+                        <p>
+                            <strong>Simple Forms</strong> has the option to redirect after form submission.
+                        </p>
+
+                        <h4>
+                            Redirect configuration
+                        </h4>
+
+<pre><code class="language-javascript">var simple_forms = new SimpleForms("#contact-form", {
+    redirect: {
+        enabled: true,       // enable redirect after form submit
+        url: "success.html", // url to redirect to
+        timeout: 3           // redirect timeout (seconds), leave 0 for instant redirect
+    }
+});
+</code></pre>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>
+                            6. <strong> Drag & Drop Files</strong>
+                        </h2>
+
+                        <hr>
+
+                        <p>
+                            <strong>Simple Forms</strong> come with a brand new solution for files uploading.
+                            <br>
+                            Now you can drag and drop files (multiple folders supported).
+                        </p>
+
+                        <h4>
+                            Files upload configuration
+                        </h4>
+<pre><code class="language-javascript">var simple_forms = new SimpleForms("#contact-form", {
+    files: {
+        enabled: true,                   // enable files uploading
+        extensions: "jpg jpeg svg png",  // allowed extensions
+        min: 0,                          // min required files count
+        max: 10,                         // max allowed files count
+        maxFileSize: 24,                 // max file item size in MB
+        filesUploadHandler: "",          // files upload handler, default: simple-forms/files-upload-handler.php
+    }
+});
+</code></pre>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>
+                            7. <strong> Advanced Validation</strong>
+                        </h2>
+
+                        <hr>
+
+                        <p>
+                            <strong>Simple Forms</strong> now allow you to add custom validation rules, see example bellow.
+                        </p>
+
+                        <h4>
+                            Advanced form fields validation
+                        </h4>
+<pre><code class="language-javascript">var simple_forms = new SimpleForms("#contact-form", {
+    validator: {
+        rules: {                        // add custom validation rules
+            ".validate-name": {         // select form field with class .validate-name
+                required: true,         // add required attribute to form field
+                min: 2,                 // set field min attribute
+                max: 30,                // set field max attribute
+                name: true              // attach NAME validation
+            },
+            ".validate-phone": {
+                required: true,
+                min: 8,
+                max: 14,
+                phone: true              // attach PHONE validation
+            },
+            ".validate-email": {
+                required: true,
+                min: 8,
+                email: true              // attach EMAIL validation
+            },
+            ".validate-url": {
+                required: true,
+                min: 5,
+                url: true                // attach URL validation
+            },
+            ".validate-date": {
+                required: true,
+                min: 6,
+                date: true               // attach DATE validation
+            }
+        }
+    }
+});
+</code></pre>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <h2>
+                            8. <strong> Feedback</strong>
+                        </h2>
+
+                        <hr>
+
+                        <h4>
+                            Final note:
+                        </h4>
+
+                        <p>
+                            Thanks for your interest in using <strong>Simple Forms</strong>.
+                            <br>
+                            If you like this product please <a href="https://codecanyon.net/item/ajax-contact-form-mobile-first/reviews/25185499" target="_blank">leave a review</a>
+                            or recommend it to your friends! great products are for sharing!
+                        </p>
+
+                        <p>
+                            If you have a suggestion or found a bug <a href="https://codecanyon.net/user/niculucas" target="_blank">please let me know</a>. Thanks in advance.
+                        </p>
+
+                        <p>
+                            Best regards.
+                            <br>
+                            <b>Lucas</b>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="js/prism.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.selectric.min.js"></script>
+    <script src="../assets/js/jquery.validate.min.js"></script>
+    <script src="../assets/js/air-datepicker.min.js"></script>
+    <script src="../assets/js/jquery.maskedinput.min.js"></script>
+    <script src="../assets/js/magnific-popup.js"></script>
+    <script src="../assets/js/simple-form.js"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

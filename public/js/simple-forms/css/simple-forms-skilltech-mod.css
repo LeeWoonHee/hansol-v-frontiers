@@ -1,0 +1,281 @@
+.simple-tooltip {
+	display: block;
+	position: absolute;
+	z-index: 9;
+	bottom: 100%;
+	left: 50%;
+	width: 220px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: inherit;
+	color: #ffffff;
+	background-color: #03060A;
+	font-style: normal !important;
+	text-align: center;
+	padding: 12px 16px;
+	border-radius: 6px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	box-shadow: rgba(0, 0, 0, 0.25) 0 0 40px;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+}
+
+.simple-tooltip:before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	bottom: -4px;
+	position: absolute;
+	left: 50%;
+	margin-left: -4px;
+	background-color: inherit;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.simple-tooltip.simple-alert,
+.simple-tooltip.simple-alert:before {
+	background-color: #e22e2e !important;
+	color: #ffffff !important;
+}
+
+:focus+.simple-tooltip,
+:hover+.simple-tooltip {
+	visibility: visible !important;
+	opacity: 1 !important;
+	bottom: calc(100% + 6px);
+}
+
+.simple-tip {
+	display: none;
+	position: absolute;
+	z-index: 9;
+	bottom: 100%;
+	left: 50%;
+	width: auto;
+	min-width: 220px;
+	max-width: 220px;
+	font-size: 11px;
+	color: #03060A;
+	background: #ffffff;
+	letter-spacing: 1px;
+	padding: 6px;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 0 30px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	animation: fade .2s ease-in-out;
+}
+
+.simple-tip>span {
+	display: block;
+	padding: 4px 6px;
+	border-radius: 4px;
+	background-color: #E1E1E9;
+}
+
+.simple-tip>span:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.simple-tip .sf-preview-image {
+	text-align: center;
+	background-color: #E1E1E9;
+}
+
+.simple-tip .sf-preview-image img {
+	display: inline-block;
+	margin: 0;
+	border: 0;
+}
+
+:hover>.simple-tip {
+	display: block;
+}
+
+form.simple-form .simple-required {
+	font-weight: 600;
+	font-size: 16px;
+	color: #ff4081;
+}
+
+form.simple-form .simple-error-label:not(.simple-tooltip) {
+	font-size: 12px;
+	color: #A2A2A2;
+	font-style: italic;
+}
+
+form.simple-form .simple-error-label.simple-alert {
+	color: #ff4081;
+}
+
+form.simple-form .disabled {
+	pointer-events: none !important;
+	opacity: 0.7 !important;
+	user-select: none;
+}
+
+form.simple-form .simple-captcha-wrapper {
+	margin-bottom: 20px;
+}
+
+form.simple-form .server-response {
+	margin-top: 20px;
+}
+
+form.simple-form .server-response:first-child {
+	margin-top: 0;
+}
+
+form.simple-form .server-response:not(:last-child) .sf-message {
+	margin-bottom: 15px;
+}
+
+.sf-message {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	padding: 12px 15px;
+	border: 3px solid #f2f2f2;
+	word-break: break-all;
+	border-radius: 3px;
+	animation: fade 0.35s ease-in;
+	color: #ffffff;
+	background: rgb(8, 10, 17, 0.53);
+}
+
+.sf-message.sf-success-message {
+	border-color: #3ad784;
+}
+
+.sf-message.sf-error-message {
+	border-color: #FF4081 !important;
+	color: #FF4081 !important;
+}
+
+.sf-message>span>span {
+	display: block;
+	padding: 2px 0;
+}
+
+.sf-message>span>span:not(:last-child) {
+	margin-bottom: 3px;
+}
+
+form.simple-form.purple .simple-error-label:not(.simple-tooltip),
+form.simple-form.green .simple-error-label:not(.simple-tooltip),
+form.simple-form.blue .simple-error-label:not(.simple-tooltip),
+form.simple-form.red .simple-error-label:not(.simple-tooltip),
+form.simple-form.faded-light .simple-error-label:not(.simple-tooltip),
+form.simple-form.faded-dark .simple-error-label:not(.simple-tooltip),
+form.simple-form.custom .simple-error-label:not(.simple-tooltip) {
+	color: #ffffff;
+}
+
+form.simple-form.purple .simple-error-label.simple-alert,
+form.simple-form.green .simple-error-label.simple-alert,
+form.simple-form.blue .simple-error-label.simple-alert,
+form.simple-form.red .simple-error-label.simple-alert,
+form.simple-form.faded-light .simple-error-label.simple-alert,
+form.simple-form.faded-dark .simple-error-label.simple-alert,
+form.simple-form.custom .simple-error-label.simple-alert {
+	color: #ff4081;
+}
+
+
+/*************************************************************
+* CUSTOM FORM THEME
+*
+* Adjust here your custom styles
+**************************************************************/
+
+form.simple-form.custom {
+	background-color: #6447DA;
+}
+
+
+/*************************************************************
+* FORM FIELDS STYLE
+*
+* Adjust here form fields styles
+**************************************************************/
+
+
+/*************************************************************
+* ERRORS HIGHLIGHT
+*
+* add style for error fields
+**************************************************************/
+
+form.simple-form input.error,
+form.simple-form select.error,
+form.simple-form textarea.error {
+	border-color: #ff4081 !important;
+}
+
+
+/*************************************************************
+* ACCESSIBILITY
+*
+* effects for people with disabilities
+**************************************************************/
+
+.tab_highlight input:focus,
+.tab_highlight textarea:focus,
+.tab_highlight select:focus {
+	color: #000000 !important;
+	background-color: #ffff00 !important;
+}
+
+
+/*************************************************************
+* FORM REPLACEMENT MESSAGE
+*
+* add style for the form replacement message
+**************************************************************/
+
+.sf-short-response {
+	font-weight: bold;
+	text-align: center;
+	padding: 40px 0;
+}
+
+@-webkit-keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

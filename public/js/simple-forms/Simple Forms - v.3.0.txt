@@ -1,0 +1,23 @@
+Product Name: Simple Forms
+Description: Dependency Free Ajax Contact Forms - Simple Forms are highly customizable & user friendly, see demos here: https://codecanyon.net/item/ajax-contact-form-mobile-first/25185499
+Author: Nicu Lucas
+Author  URI: https://codecanyon.net/user/niculucas
+Product URI: https://codecanyon.net/item/ajax-contact-form-mobile-first/25185499
+Version: 3.0
+
+
+Hi dear customer, Thanks for your interest in using Simple Forms.
+
+- For configuration guide please check simple-forms/help folder
+- To leave a review or feedback please access: https://codecanyon.net/item/ajax-contact-form-mobile-first/reviews/25185499
+
+
+Changelog:
+
+- Third parties plugins removed
+- Drag & Drop Files Upload added
+- Files upload handler added
+- New Form Styles added
+- New email templates
+- translations added
+- improoved doocs
